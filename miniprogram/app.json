@@ -8,10 +8,7 @@
     "pages/release/release"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "weibo",
-    "navigationBarTextStyle": "black"
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "list": [
