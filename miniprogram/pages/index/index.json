@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "Search":"../../component/search/search"
+    "Search": "../../components/search/search",
+    "van-row": "../../components/dist/row/index",
+    "van-col": "../../components/dist/col/index"
   }
 }

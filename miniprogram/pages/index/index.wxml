@@ -1,2 +1,10 @@
-<!--index.wxml-->
+<!-- index.wxml -->
 <Search id="search"></Search>
+<van-row class="index-sort">
+  <van-col span="4" class="hot">热门</van-col>
+  <van-col span="4" class="video">视频</van-col>
+  <van-col span="4" class="star">明星</van-col>
+  <van-col span="4" class="funny">搞笑</van-col>
+  <van-col span="4" class="variety">综艺</van-col>
+  <van-col span="4" class="fashion">时尚</van-col>
+</van-row>
