@@ -2,6 +2,8 @@
   "usingComponents": {
     "Search": "../../components/search/search",
     "van-row": "../../components/dist/row/index",
-    "van-col": "../../components/dist/col/index"
+    "van-col": "../../components/dist/col/index",
+    "van-tab": "../../components/dist/tab/index",
+    "van-tabs": "../../components/dist/tabs/index"
   }
 }

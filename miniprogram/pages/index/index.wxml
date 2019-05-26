@@ -1,10 +1,10 @@
 <!-- index.wxml -->
 <Search id="search"></Search>
-<van-row class="index-sort">
-  <van-col span="4" class="hot">热门</van-col>
-  <van-col span="4" class="video">视频</van-col>
-  <van-col span="4" class="star">明星</van-col>
-  <van-col span="4" class="funny">搞笑</van-col>
-  <van-col span="4" class="variety">综艺</van-col>
-  <van-col span="4" class="fashion">时尚</van-col>
-</van-row>
+<van-tabs active="{{ active }}" bind:click="onClick">
+  <van-tab title="热门">热门</van-tab>
+  <van-tab title="视频">视频</van-tab>
+  <van-tab title="明星">明星</van-tab>
+  <van-tab title="搞笑">搞笑</van-tab>
+  <van-tab title="综艺">综艺</van-tab>
+  <van-tab title="时尚">时尚</van-tab>
+</van-tabs>
