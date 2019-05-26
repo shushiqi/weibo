@@ -1,7 +1,9 @@
 <!-- index.wxml -->
 <Search id="search"></Search>
 <van-tabs active="{{ active }}" bind:click="onClick">
-  <van-tab title="热门">热门</van-tab>
+  <van-tab title="热门">
+    <contents></contents>
+  </van-tab>
   <van-tab title="视频">视频</van-tab>
   <van-tab title="明星">明星</van-tab>
   <van-tab title="搞笑">搞笑</van-tab>
