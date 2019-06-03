@@ -5,6 +5,7 @@
     "van-col": "../../components/dist/col/index",
     "van-tab": "../../components/dist/tab/index",
     "van-tabs": "../../components/dist/tabs/index",
-    "contents": "../../components/contents/content"
+    "van-button": "../../components/dist/button/index",
+    "van-popup": "../../components/dist/popup/index"
     }
 }
