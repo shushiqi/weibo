@@ -1,2 +1,4 @@
 <!--pages/follow/follow.wxml-->
-<contents></contents>
+<<view>
+    whatever
+</view>
