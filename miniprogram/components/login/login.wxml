@@ -1,0 +1,6 @@
+<!--components/login/login.wxml-->
+<custom-component>
+<button class="btn login" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="tapToLogin">
+  登录
+</button>
+</custom-component>

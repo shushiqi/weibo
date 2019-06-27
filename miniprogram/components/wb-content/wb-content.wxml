@@ -1,0 +1,49 @@
+<!-- components/wbcontent/wb-content.wxml -->
+<view class="content" wx:for="{{weiboList}}" wx:key="{{iD}}">
+  <view class="wb-hd">
+    <view class="userInfo">
+      <view class="avataUrl">
+        <image src="{{item.imgUrl}}" />
+      </view>
+      <view class="userName">{{item.name}}</view>
+      <view class="wbInfo">
+        <p>{{item.time}}</p>
+        <view class="wbInfo_from">来自{{item.from}}</view>
+      </view>
+    </view>
+    <view class="wb-hd_right">
+      <view class="follow">
+        <van-button type="info" plain size="mini" class="follow">关注</van-button>
+      </view>
+      <view class="more">
+        <image src="../../images/more.png" />
+      </view>
+    </view>
+  </view>
+  <view class="wb-bd">
+    <view class="wb-bd_msg ">
+      <P>{{item.content}}</P>
+    </view>
+    <view class="wb-bd_img">
+      <image src="../../images/wb-img1.jpg" />
+    </view>
+  </view>
+  <view class="wb-ft">
+    <view class="repo wb-ft_left">
+      <image src="../../images/repo.png" />
+      <p>{{item.repo}}</p>
+    </view>
+    <viwe class="comment wb-ft_left">
+      <image src="../../images/comment.png" />
+      <p>{{item.comment}}</p>
+    </viwe>
+    <view class="like wb-ft_left">
+      <image src="../../images/like.png" />
+      <p>{{item.likes}}</p>
+    </view>
+    <view class="share wb-ft_right">
+      <p>分享</p>
+      <image src="../../images/share.png" />
+    </view>
+  </view>
+</view>

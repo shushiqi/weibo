@@ -6,6 +6,8 @@
     "van-tab": "../../components/dist/tab/index",
     "van-tabs": "../../components/dist/tabs/index",
     "van-button": "../../components/dist/button/index",
-    "van-popup": "../../components/dist/popup/index"
+    "van-popup": "../../components/dist/popup/index",
+    "Login": "../../components/login/login",
+    "wb-content": "../../components/wb-content/wb-content"
     }
 }
