@@ -54,8 +54,14 @@
         </view>
       </view>
     </van-tab>
-    <van-tab title="视频">视频</van-tab>
-    <van-tab title="明星">明星</van-tab>
+    <van-tab title="视频">
+    <button type="primary" bindtap="getDataTest">测试</button>
+      <wb-content id="content" />
+    </van-tab>
+    <van-tab title="明星">
+      <view>
+      </view>
+    </van-tab>
     <van-tab title="搞笑">搞笑</van-tab>
     <van-tab title="综艺">综艺</van-tab>
     <van-tab title="时尚">时尚</van-tab>

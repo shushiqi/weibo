@@ -1,4 +1,6 @@
 {
   "component": true,
-  "usingComponents": {}
+  "usingComponents": {
+    "van-button": "../../components/dist/button/index"
+  }
 }

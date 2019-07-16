@@ -19,12 +19,12 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    function(options) {
+    getData: function () {
       Weibo.weibo().then(data => {
         console.log(data);
         this.setData({
           weiboList: data.data.weiboList
-        })      
+        })
       })
       
     }
